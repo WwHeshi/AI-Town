@@ -1,6 +1,6 @@
-# 赛博小镇 - AI NPC对话系统
+# AI-Town - 赛博小镇
 
-基于HelloAgents框架的AI小镇模拟游戏,展示多智能体系统在游戏中的应用。
+基于Godot引擎与FastAPI打造的2D像素风格AI小镇模拟游戏，内置具备记忆与好感度动态变化的智能NPC，支持玩家以自然语言实时交互。
 
 ## 🎮 功能特性
 
@@ -15,8 +15,8 @@
 
 - **游戏引擎:** Godot 4.x
 - **后端框架:** FastAPI + Python 3.10+
-- **AI框架:** HelloAgents
-- **LLM:** OpenAI GPT-4 (可配置其余的LLM服务)
+- **数据库:** SQLite
+- **向量库:** Qdrant 
 
 ## 📦 快速开始
 
@@ -29,10 +29,8 @@
 - [好感度系统](AFFINITY_SYSTEM_GUIDE.md)
 - [记忆系统](MEMORY_SYSTEM_GUIDE.md)
 
-## 📖 教程
+<div align="center">
 
-本项目是《Hello-agents》教材第15章的配套案例。
+本项目采用 **[MIT License](LICENSE)** 开源许可证
 
-## 📄 许可证
-
-CC BY-NC-SA 4.0
+</div>
