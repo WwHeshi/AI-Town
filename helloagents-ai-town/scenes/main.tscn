@@ -1,4 +1,4 @@
-[gd_scene load_steps=65 format=3 uid="uid://vd6f817st20r"]
+[gd_scene load_steps=64 format=3 uid="uid://vd6f817st20r"]
 
 [ext_resource type="Script" uid="uid://dyfhfmncwhby0" path="res://scripts/main.gd" id="1_tbgi4"]
 [ext_resource type="PackedScene" uid="uid://dob8a2h4f6gt8" path="res://scenes/player.tscn" id="2_sugp2"]
@@ -7,7 +7,6 @@
 [ext_resource type="Texture2D" uid="uid://c6guopaun4bag" path="res://assets/interiors/Japanese_Home_1_preview_48x48.png" id="5_tbgi4"]
 [ext_resource type="PackedScene" uid="uid://cm0yi2d074t64" path="res://scenes/dialogue_ui.tscn" id="5_tefeu"]
 [ext_resource type="Texture2D" uid="uid://ev8s67j8speg" path="res://assets/characters/character_4.png" id="6_o6xl0"]
-[ext_resource type="Texture2D" uid="uid://be80ipi13u6xb" path="res://assets/interiors/小鲸鱼.png" id="8_tipki"]
 [ext_resource type="AudioStream" uid="uid://brhbet2ll8icy" path="res://assets/audio/BGM.ogg" id="9_85g3d"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_tipki"]
@@ -389,11 +388,6 @@ position = Vector2(644.49994, 371.25)
 scale = Vector2(1.4747808, 1.1394081)
 texture = ExtResource("5_tbgi4")
 metadata/_edit_lock_ = true
-
-[node name="小鲸鱼" type="Sprite2D" parent="Background"]
-position = Vector2(96.62457, -220.50922)
-scale = Vector2(0.09239753, 0.12666555)
-texture = ExtResource("8_tipki")
 
 [node name="Player" parent="." instance=ExtResource("2_sugp2")]
 position = Vector2(453, 492)
